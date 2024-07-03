@@ -36,7 +36,7 @@ export default function SignIn() {
     <main className="flex w-full md:w-11/12 2xl:w-[1375px] min-h-screen items-center justify-between">
       <img
         className="hidden md:block md:absolute md:top-0 md:left-0 h-screen w-[50%] object-cover"
-        src="/img/signin.png"
+        src="/img/login.jpg"
         alt="signin"
       />
       <div className="flex flex-col md:absolute md:top-0 md:left-[50%] justify-center items-center h-screen w-full md:w-[50%]">

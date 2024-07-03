@@ -27,8 +27,10 @@ const router = createBrowserRouter([
       { path: "/", element: <Index /> },
       { path: "/index", element: <Index /> },
       { path: "/home", element: <Index /> },
+      { path: "/bio", element: <Index /> },
+      { path: "/work", element: <Index /> },
       {
-        path: "/signin",
+        path: "/login",
         element: <SignIn />,
         loader: async () => info().online && redirect("/"),
       },
