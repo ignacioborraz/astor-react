@@ -3,6 +3,7 @@ import {
   Index,
   Main,
   SignIn,
+  Bio,
   Register,
   MangaForm,
   AuthorForm,
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Index /> },
       { path: "/index", element: <Index /> },
       { path: "/home", element: <Index /> },
-      { path: "/bio", element: <Index /> },
+      { path: "/bio", element: <Bio /> },
       { path: "/work", element: <Index /> },
       {
         path: "/login",

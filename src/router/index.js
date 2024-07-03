@@ -1,5 +1,6 @@
 export { default as Main } from '../layouts/Main'
 export { default as Index } from '../pages/Index'
+export { default as Bio } from '../pages/Bio'
 export { default as SignIn } from '../pages/SignIn'
 export { default as Register } from '../pages/Register'
 export { default as Allow } from '../pages/Allow'
