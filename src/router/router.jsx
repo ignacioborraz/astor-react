@@ -16,7 +16,8 @@ import {
   Page,
   MyMangas,
   MangaEdit,
-  ChaptersEdit
+  ChaptersEdit,
+  Statement
 } from "./index";
 import info from "../utils/info";
 
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       { path: "/index", element: <Index /> },
       { path: "/home", element: <Index /> },
       { path: "/bio", element: <Bio /> },
-      { path: "/work", element: <Index /> },
+      { path: "/work", element: <Statement /> },
       {
         path: "/login",
         element: <SignIn />,

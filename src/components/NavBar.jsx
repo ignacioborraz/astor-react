@@ -28,7 +28,7 @@ function catch_token(setOptions) {
     setOptions([
         { to: "/", title: "Home" },
         { to: "/bio", title: "Bio" },
-        { to: "/work", title: "Trabajos" },
+        { to: "/work", title: "Statement" },
         { to: "/login", title: "Login" }
     ])
 }

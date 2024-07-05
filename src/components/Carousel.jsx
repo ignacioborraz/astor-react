@@ -5,19 +5,19 @@ export default function Carousel() {
   const [counter, setCounter] = useState(0);
   const categories = [
     {
-      category: "Bio",
-      description: "Descubre quién soy y cómo llegué hasta aquí",
-      to: "/bio",
+      category: "Cuerpo (mi libro de artista)",
+      description:
+        "Punto de partida para reflexionar sobre la existencia, la capacidad de sentir y permitir que fluya la experiencia inter-natural. Es a través de él que experimentamos la pulsión de vida, de deseo y el dolor. Bitácora de la experiencia humana.",
     },
     {
-      category: "Trabajos",
-      description: "Obnubilate con lo que hago y me apasiona",
-      to: "/work",
+      category: "Materia (la que tocan mis manos)",
+      description:
+        "Calidad de cosa, esencia tangible, objeto y naturaleza concreta. Estado de la sustancia que alguna vez cósmica abrazo todo. ¿Qué sería de nuestra existencia sin ella? Sin materia no habría nada, ni siquiera el vacío tendría sentido.",
     },
     {
-      category: "Contacto",
-      description: "Escríbeme para más ideas y trabajo",
-      to: "/contact",
+      category: "Espacio (mi hoja en blanco)",
+      description:
+        "Es un vacío-lleno de preguntas, más que de respuestas, de conceptos, más que de materia y que al habitarlo define ideológicamente nuestro estar. Es un lugar (in)finito donde la creatividad germina y se transforma libremente. En él se entablan profundas relaciones de interdependencia entre el cuerpo y la experiencia.",
     },
   ];
 
@@ -36,19 +36,11 @@ export default function Carousel() {
       className="items-center justify-between rounded-lg mt-5 hidden px-5 md:flex md:h-56 md:w-full bg-[#F9A8D4]" /* style={{ backgroundColor: categories[counter]?.hover }} */
     >
       <Arrow d={d_left} onClick={prev} />
-{/*       <img
-        className="object-cover w-[180px] lg:w-[200px] self-end "
-        src={categories[counter]?.character_photo}
-      />
-      <img
-        className="object-cover w-[150px] mb-12 self-end"
-        src={categories[counter]?.cover_photo}
-      /> */}
-      <div className="w-[200px] lg:w-[300px] xl:w-[450px] text-l p-2 text-white xl:px-10">
-        <h3 className="text-2xl text-gray-700">
+      <div className="w-3/4 text-l p-2 text-white xl:px-10">
+        <h3 className="text-xl lg:text-2xl xl:text-3xl text-gray-700">
           {categories[counter]?.category.toUpperCase()}
         </h3>
-        <p className="text-xs xl:text-sm text-gray-700">
+        <p className="text-sm lg:text-lg text-gray-700">
           {categories[counter]?.description}
         </p>
       </div>
