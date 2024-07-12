@@ -5,6 +5,7 @@ import {
   SignIn,
   Bio,
   Works,
+  WorkDetail,
   Statement,
   Contact,
   Register,
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
       { path: "/bio", element: <Bio /> },
       { path: "/state", element: <Statement /> },
       { path: "/works", element: <Works /> },
+      { path: "/works/:wid", element: <WorkDetail /> },
       { path: "/contact", element: <Contact /> },
       {
         path: "/login",

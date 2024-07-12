@@ -1,4 +1,5 @@
 [{
+    "_id": 1,
     "section": "Diversidad",
     "title": "Intervenciones Rio de Janerio",
     "color": "#86198f",
@@ -6,6 +7,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 2,
     "section": "Diversidad",
     "title": "Intervenciones Sao Paulo",
     "color": "#86198f",
@@ -13,6 +15,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 3,
     "section": "Diversidad",
     "title": "Intervenciones Buenos Aires",
     "color": "#86198f",
@@ -20,6 +23,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 4,
     "section": "Género y Disidencias",
     "title": "Corpiño de varón",
     "color": "#1d4ed8",
@@ -27,6 +31,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 5,
     "section": "Género y Disidencias",
     "title": "Homoerotismo de los cuerpos",
     "color": "#1d4ed8",
@@ -34,6 +39,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 6,
     "section": "Género y Disidencias",
     "title": "Eróticos Disidentes",
     "color": "#1d4ed8",
@@ -41,6 +47,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 7,
     "section": "Cerámicas",
     "title": "Sucedió en un plato!",
     "color": "#6b21a8",
@@ -48,6 +55,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 8,
     "section": "Cerámicas",
     "title": "Objetos Cerámicos",
     "color": "#6b21a8",
@@ -55,6 +63,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 9,
     "section": "Imágenes 2D",
     "title": "Paisajes Orgánicos",
     "color": "#9f1239",
@@ -62,6 +71,7 @@
     "photos": [],
     "fecha": ""
 },{
+    "_id": 10,
     "section": "Imágenes 2D",
     "title": "Jardines",
     "color": "#9f1239",

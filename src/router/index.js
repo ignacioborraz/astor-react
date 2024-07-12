@@ -14,6 +14,7 @@ export { default as ChapterForm } from '../pages/ChapterForm'
 
 export { default as AuthorProfile } from '../pages/AuthorProfile'
 export { default as Works } from '../pages/Works'
+export { default as WorkDetail } from '../pages/WorkDetail'
 export { default as MangaDetail } from '../pages/MangaDetail'
 export { default as Page } from '../pages/Page'
 

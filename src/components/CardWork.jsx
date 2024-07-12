@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Link as Anchor } from "react-router-dom";
 
-export default function CardWork({ index, work }) {
+export default function CardWork({ work }) {
   return (
-    <Anchor to={`/works/${index}`} className="bg-white w-[320px] h-[160px] lg:w-[420px] lg:h-[210px] m-3 flex justify-between items-center rounded-lg drop-shadow-md hover:drop-shadow-xl cursor-pointer">
+    <Anchor to={`/works/${work._id}`} className="bg-white w-[320px] h-[160px] lg:w-[420px] lg:h-[210px] m-3 flex justify-between items-center rounded-lg drop-shadow-md hover:drop-shadow-xl cursor-pointer">
       <span
         className="w-2 h-[120px] lg:h-[160px]"
         style={{ backgroundColor: work.color }}

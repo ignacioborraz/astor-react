@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="flex-grow flex justify-center relative">
         <img
           className="-z-10 h-screen w-full md:w-[50%] object-cover absolute md:relative"
-          src="/img/astor.jpg"
+          src="/img/contact.jpg"
           alt="bio"
         />
         <div className="py-[80px] flex flex-col justify-center items-center h-screen w-full md:w-[50%]">
