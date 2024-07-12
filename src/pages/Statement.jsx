@@ -3,7 +3,7 @@ export default function Statement() {
     <main className="flex w-full  min-h-screen items-center justify-between">
       <div className="flex-grow flex justify-center">
       <img
-          className="hidden md:block min-h-screen 2xl:h-screen w-[50%] object-cover"
+          className="hidden md:block min-h-screen 3xl:h-screen w-[50%] object-cover"
           src="/img/statement.jpg"
           alt="statement"
         />
@@ -36,6 +36,7 @@ export default function Statement() {
             interioridad topológica contenedora donde deposito el deseo, la
             petit a lacaniana.
           </p>
+          <img className='w-[50%] max-w-[250px] py-[10px]' src="/img/esquema.png"/>
           <p className="text-[13px] md:text-[15px] lg:text-[17px] text-justify py-[10px] px-[28px]">
             Desde 2008 se desempeña como docente en las asignaturas OTAV
             Cerámica 1 y Taller Cerámico 2, 3 y 4 en las carreras de Artes
