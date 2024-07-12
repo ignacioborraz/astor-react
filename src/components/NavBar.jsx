@@ -29,7 +29,7 @@ function catch_token(setOptions) {
         { to: "/", title: "Home" },
         { to: "/bio", title: "Bio" },
         { to: "/work", title: "Statement" },
-        { to: "/login", title: "Login" }
+        { to: "/contact", title: "Contact" }
     ])
 }
 
@@ -103,7 +103,7 @@ export default function NavBar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
                 {location.pathname.includes('chapter/') && <span>#{number} - {title}</span>}
-                <img  className='h-14 p-1' src="/img/logo.png"/>
+                <img className='h-14 p-1' src="/img/logo.png"/>
             </nav>
         </>
     )

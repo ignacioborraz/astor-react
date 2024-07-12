@@ -17,7 +17,8 @@ import {
   MyMangas,
   MangaEdit,
   ChaptersEdit,
-  Statement
+  Statement,
+  Contact
 } from "./index";
 import info from "../utils/info";
 
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
       { path: "/home", element: <Index /> },
       { path: "/bio", element: <Bio /> },
       { path: "/work", element: <Statement /> },
+      { path: "/contact", element: <Contact /> },
       {
         path: "/login",
         element: <SignIn />,

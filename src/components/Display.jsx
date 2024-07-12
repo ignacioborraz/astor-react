@@ -47,6 +47,9 @@ export default function Display({
           <ButtonNav key={index} each={each} />
         )
       )}
+      <span className="flex-grow flex items-end my-1 p-2">
+        <img className="h-14 p-1" src="/img/logo_solo.png" />
+      </span>
     </div>
   );
 }

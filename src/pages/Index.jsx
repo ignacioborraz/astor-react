@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <main className="flex flex-col md:pt-20 w-full md:w-11/12 2xl:w-[1375px] min-h-screen items-center justify-between">
       <Carousel />
-      <Welcome title="gaston 'astor' severina" subt1="obra y vida" />
+      <Welcome title="Gastón Severina" subt1="obra y vida" />
     </main>
   );
 }
