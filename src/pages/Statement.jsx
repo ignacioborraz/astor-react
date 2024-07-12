@@ -1,3 +1,5 @@
+import { Link as Anchor } from "react-router-dom";
+
 export default function Statement() {
   return (
     <main className="flex w-full  min-h-screen items-center justify-between">
@@ -14,7 +16,7 @@ export default function Statement() {
                 Gastón
               </p>
               <p className="font-semibold text-[24px] md:text-[32px] text-right pr-[6px]">
-                BA
+                Mi
               </p>
             </div>
             <div>
@@ -22,7 +24,7 @@ export default function Statement() {
                 Severina
               </p>
               <p className="font-semibold text-[24px] md:text-[32px] text-left pl-[6px] text-[#F472B6]">
-                1981
+                trabajo
               </p>
             </div>
           </div>
@@ -52,6 +54,12 @@ export default function Statement() {
           <p className="text-[13px] md:text-[15px] lg:text-[17px] text-justify py-[10px] px-[28px]">
           Soy un productor se sentido multidisciplinar, aunque ese término ya me resulta un poco acartonado. Como contemporáneo, no me detengo en el archivo, sino que activo el repertorio, pongo el cuerpo y la materia en acción, para decir, para mostrar y en ese acontecimiento simbólico y semántico, interpelarte.
           </p>
+          <Anchor
+            to="/works"
+            className="border-none bg-[#F472B6] hover:drop-shadow-xl p-2 text-center text-xl text-white mt-2 rounded-lg"
+          >
+            Ver mis trabajos
+          </Anchor>
         </div>
       </div>
     </main>

@@ -4,6 +4,9 @@ import {
   Main,
   SignIn,
   Bio,
+  Works,
+  Statement,
+  Contact,
   Register,
   MangaForm,
   AuthorForm,
@@ -11,14 +14,11 @@ import {
   ChapterForm,
   Allow,
   AuthorProfile,
-  Mangas,
   MangaDetail,
   Page,
   MyMangas,
   MangaEdit,
   ChaptersEdit,
-  Statement,
-  Contact
 } from "./index";
 import info from "../utils/info";
 
@@ -32,6 +32,7 @@ const router = createBrowserRouter([
       { path: "/home", element: <Index /> },
       { path: "/bio", element: <Bio /> },
       { path: "/work", element: <Statement /> },
+      { path: "/works", element: <Works /> },
       { path: "/contact", element: <Contact /> },
       {
         path: "/login",
@@ -76,7 +77,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/mangas/:page",
-        element: <Mangas />,
+        element: <Works />,
         loader: async () => !info().online && redirect("/bad-auth"),
       },
       {
@@ -94,21 +95,21 @@ const router = createBrowserRouter([
         element: <MyMangas />,
         loader: async () =>
           (info().role === 0 || info().role === 2 || info().role === 3) &&
-          redirect("/bad-auth")
+          redirect("/bad-auth"),
       },
       {
         path: "/edit-manga/:id",
         element: <MangaEdit />,
         loader: async () =>
           (info().role === 0 || info().role === 2 || info().role === 3) &&
-          redirect("/bad-auth")
+          redirect("/bad-auth"),
       },
       {
         path: "/edit-chapters/:id",
         element: <ChaptersEdit />,
         loader: async () =>
           (info().role === 0 || info().role === 2 || info().role === 3) &&
-          redirect("/bad-auth")
+          redirect("/bad-auth"),
       },
       { path: "/*", element: <Allow /> },
     ],

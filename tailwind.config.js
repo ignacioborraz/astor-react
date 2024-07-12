@@ -8,7 +8,7 @@ module.exports = {
       montserrat: ["Montserrat", "sans-serif"],
     },
     backgroundImage: {
-      astor: "url('https://live.staticflickr.com/65535/48686409231_b705617810_k.jpg')"
+      astor: "url('https://payload.cargocollective.com/1/19/622484/10167489/DSCN9371-web_670.jpg')"
     }
   },
   variants: {},
