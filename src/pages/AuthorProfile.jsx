@@ -35,7 +35,7 @@ export default function AuthorProfile() {
 	navigate('/mymangas')
   }
   return (
-    <main className="flex flex-col py-20 w-full md:w-11/12 2xl:w-[1375px] min-h-screen items-center justify-start">
+    <main className="flex flex-col py-20 w-full md:w-11/12 2xl:w-[1280px] min-h-screen items-center justify-start">
       <ProfileAuthor
         photo={profile?.photo}
         name={profile?.name}

@@ -24,7 +24,7 @@ export default function Works() {
       <h3 className="text-[36px] lg:text-[64px] text-white font-bold font-montserrat mt-[140px]">
         Mis trabajos
       </h3>
-      <div className="flex-grow rounded-[10px_10px_0_0] w-full md:w-[720px] lg:w-11/12 2xl:w-[1375px] flex flex-col justify-start items-center bg-white">
+      <div className="flex-grow rounded-[10px_10px_0_0] w-full md:w-[720px] lg:w-11/12 2xl:w-[1280px] flex flex-col justify-start items-center bg-white">
         {/* <form className="w-full flex justify-center my-5" ref={current_checks}>
           {categories.map((each) =>
             checks.includes(each._id) ? (

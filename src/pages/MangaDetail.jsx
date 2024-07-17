@@ -50,7 +50,7 @@ export default function MangaDetail() {
   return (
     <main className="flex flex-col w-full min-h-screen items-center justify-start pt-20">
       <img
-        className="w-[320px] md:w-[720px] lg:w-11/12 2xl:w-[1375px] h-[320px] lg:h-[320px] object-cover rounded-lg"
+        className="w-[320px] md:w-[720px] lg:w-11/12 2xl:w-[1280px] h-[320px] lg:h-[320px] object-cover rounded-lg"
         src={current_manga.cover_photo}
         alt={current_manga._id}
       />

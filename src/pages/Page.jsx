@@ -72,7 +72,7 @@ export default function Page() {
   const d_right =
     "M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z";
   return (
-    <main className="flex flex-col w-full md:w-11/12 2xl:w-[1375px] relative min-h-screen items-center justify-start pt-20">
+    <main className="flex flex-col w-full md:w-11/12 2xl:w-[1280px] relative min-h-screen items-center justify-start pt-20">
       <ArrowPage
         d={d_left}
         onClick={handle_prev}
