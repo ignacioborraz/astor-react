@@ -37,7 +37,7 @@ export default function Carousel() {
     >
       <Arrow d={d_left} onClick={prev} />
       <div className="w-3/4 text-l p-2 text-white xl:px-10">
-        <h3 className="text-xl lg:text-2xl xl:text-3xl text-gray-700">
+        <h3 className="text-xl lg:text-2xl xl:text-3xl text-gray-700 font-medium">
           {categories[counter]?.category.toUpperCase()}
         </h3>
         <p className="text-sm lg:text-lg text-gray-700">
