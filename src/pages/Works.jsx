@@ -62,7 +62,7 @@ export default function Works() {
         </form> */}
         <section className="flex flex-grow flex-wrap justify-center items-start m-3">
           {worksJson.map((each) => (
-            <CardWork key={each.id} work={each} />
+            <CardWork key={each._id} work={each} />
           ))}
         </section>
       </div>
