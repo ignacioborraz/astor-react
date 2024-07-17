@@ -25,7 +25,7 @@ export default function CarouselDefault({ show, setShow, photos }) {
             src={each}
             alt={each}
             key={index}
-            className="h-full w-full object-cover z-20"
+            className="h-full w-full object-contain z-20"
           />
         ))}
       </Carousel>
