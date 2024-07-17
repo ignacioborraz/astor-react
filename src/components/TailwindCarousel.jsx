@@ -2,7 +2,7 @@ import { Carousel } from "@material-tailwind/react";
 
 export default function CarouselDefault({ show, setShow, photos }) {
   return show && (
-    <>
+    <div className="bg-black w-full h-screen fixed z-10 top-0 right-0">
       <svg
         className="w-14 p-1 text-white border-white border-2 hover:bg-[#FF54AC] rounded-lg fixed z-30 top-4 right-4"
         onClick={()=>setShow(false)}
@@ -29,6 +29,6 @@ export default function CarouselDefault({ show, setShow, photos }) {
           />
         ))}
       </Carousel>
-    </>
+    </div>
   )
 }
