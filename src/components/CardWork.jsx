@@ -7,7 +7,7 @@ export default function CardWork({ work }) {
   return (
     <>
       <div
-        className="bg-white w-[320px] h-[160px] lg:w-[420px] lg:h-[210px] hover:bg-gray-200 m-3 flex justify-between items-center rounded-lg drop-shadow-md hover:drop-shadow-xl cursor-pointer"
+        className="bg-white w-[320px] h-[160px] lg:w-[400px] lg:h-[200px] hover:bg-gray-200 m-3 flex justify-between items-center rounded-lg drop-shadow-md hover:drop-shadow-xl cursor-pointer"
         onClick={()=>setShow(true)}
       >
         <span
